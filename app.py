@@ -9,6 +9,13 @@ import os
 
 app = Flask(__name__)
 
+gunicorn_args = os.getenv('GUNICORN_CMD_ARGS', '')
+gunicorn_app = 'app:app'  # Replace with your Gunicorn app entry point
+
+# Start Gunicorn with the specified arguments
+cmd = f'gunicorn {gunicorn_app} {gunicorn_args}'
+
+
 # Load the DeepSpeech model
 model_path = 'resources/deepspeech-0.9.3-models.tflite'
 model = deepspeech.Model(model_path)
