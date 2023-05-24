@@ -22,7 +22,7 @@ llvmlite==0.39.0
 MarkupSafe==2.1.2
 msgpack==1.0.5
 numba==0.56.4
-numpy==1.24.3
+numpy==1.21.6
 oslo.i18n==6.0.0
 packaging==23.1
 pbr==5.11.1
