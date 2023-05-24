@@ -156,4 +156,4 @@ def check_pronunciation():
         return jsonify({'result': False, 'phoneme_text': phoneme_text, 'phoneme_word': phoneme_word})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
