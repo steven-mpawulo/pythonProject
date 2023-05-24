@@ -21,7 +21,7 @@ librosa==0.10.0.post2
 llvmlite==0.39.0
 MarkupSafe==2.1.2
 msgpack==1.0.5
-numba==0.57.0
+numba==0.56.4
 numpy==1.24.3
 oslo.i18n==6.0.0
 packaging==23.1
